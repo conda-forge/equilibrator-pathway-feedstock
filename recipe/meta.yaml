@@ -1,5 +1,5 @@
 {% set name = "equilibrator-pathway" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/equilibrator-pathway-{{ version }}.tar.gz
-  sha256: b6c2b14837e21f98e4eacc06439a66262acac997f8aad9e8a68bb624facc378c
+  sha256: 242a1a0215e57e02d1b7c981a130de7f56bbcde9232ad63e186c5a548dec2fac
 
 build:
   number: 0
