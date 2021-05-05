@@ -20,14 +20,14 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - cvxpy ==1.1.6
-    - equilibrator-api ~=0.4.1
+    - cvxpy ~=1.1.10
+    - equilibrator-api ~=0.4.3
     - numpy ~=1.19
     - osqp ~=0.6.1
     - path ~=15.0
     - pint ~=0.15
     - python >=3.6
-    - sbtab ~=0.9.78
+    - sbtab ~=1.0
     - scipy ~=1.5
     - seaborn ~=0.10
     - uncertainties ~=3.1
