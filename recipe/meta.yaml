@@ -21,7 +21,7 @@ requirements:
     - python >=3.6
   run:
     - cvxpy ~=1.1.10
-    - equilibrator-api ~=0.4.3
+    - equilibrator-api ~=0.4.5
     - numpy ~=1.19
     - osqp ~=0.6.1
     - path ~=15.0
