@@ -1,5 +1,5 @@
 {% set name = "equilibrator-pathway" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/equilibrator-pathway-{{ version }}.tar.gz
-  sha256: a9f0ac5042d910148fb2260a10ca715ca9ac703c1790734e2eeede77d8755ca4
+  sha256: 9afeaef83418c1bb4ba14871bcfa0285ad3866d909c44c456c1cad5ef62ef6ab
 
 build:
   number: 0
@@ -21,11 +21,12 @@ requirements:
     - python >=3.9
   run:
     - python >=3.9
+    - pybind11 ~= 2.11
     - seaborn ~=0.12
-    - osqp ~=0.6
-    - cvxpy ~=1.3,>=1.3.2
-    - sbtab ~=1.0
-    - equilibrator-api ~=0.5.0
+    - cvxpy ~=1.4
+    - sbtab ~=1.0,>=1.0.8
+    - matplotlib ~=3.8
+    - equilibrator-api ~=0.5.1
 
 test:
   imports:
