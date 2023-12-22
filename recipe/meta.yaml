@@ -25,7 +25,7 @@ requirements:
     - seaborn ~=0.12
     - cvxpy ~=1.4
     - sbtab ~=1.0,>=1.0.8
-    - matplotlib~=3.8
+    - matplotlib ~=3.8
     - equilibrator-api ~=0.5.1
 
 test:
