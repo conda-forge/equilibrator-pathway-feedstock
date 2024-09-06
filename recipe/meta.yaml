@@ -25,11 +25,11 @@ requirements:
     - pip
   run:
     - python >=3.9
-    - pybind11 ~= 2.11
-    - seaborn ~=0.13
-    - cvxpy ~=1.4
+    - pybind11 ~=2.11
+    - seaborn-base ~=0.13
+    - cvxpy-base ~=1.5
     - sbtab ~=1.0,>=1.0.8
-    - matplotlib ~=3.8
+    - matplotlib-base ~=3.8
     - equilibrator-api ~=0.6.0
     - equilibrator-cache ~=0.6.1
 
