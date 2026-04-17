@@ -1,5 +1,6 @@
 {% set name = "equilibrator-pathway" %}
 {% set version = "0.7.0" %}
+{% set python_min = "3.11" %}
 
 
 package:
@@ -26,12 +27,11 @@ requirements:
   run:
     - python >={{ python_min }}
     - pybind11 ~=2.11
+    - matplotlib-base ~=3.10
     - seaborn-base ~=0.13
-    - cvxpy ~=1.5
-    - sbtab ~=1.0,>=1.0.8
-    - matplotlib-base ~=3.8
-    - equilibrator-api ~=0.6.0
-    - equilibrator-cache ~=0.6.1
+    - cvxpy ~=1.8
+    - sbtab >=1.0.8
+    - equilibrator-api ~=0.7.0
 
 test:
   imports:
