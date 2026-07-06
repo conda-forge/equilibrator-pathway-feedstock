@@ -28,10 +28,10 @@ requirements:
     - python >={{ python_min }}
     - pybind11 ~=2.11
     - matplotlib-base ~=3.10
-    - seaborn-base ~=0.13
     - cvxpy ~=1.8
-    - sbtab >=1.0.8
+    - sbtabpy >=1.0.8
     - equilibrator-api ~=0.7.0
+    - equilibrator-cache ~=0.7.1
 
 test:
   imports:
