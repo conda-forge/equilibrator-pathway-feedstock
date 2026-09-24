@@ -1,5 +1,5 @@
 {% set name = "equilibrator-pathway" %}
-{% set version = "0.7.1" %}
+{% set version = "0.8.0" %}
 {% set python_min = "3.11" %}
 
 
@@ -8,8 +8,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: ce6456240be933ccbcacbc052a729c812edb26a2128090a79744814892da6beb
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 17e267bbdae18c63fc3f4b821523636ebe46aa91c761f91e722e1388a1e2fb48
 
 build:
   number: 0
